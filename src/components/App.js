@@ -20,7 +20,7 @@ const inpref = useRef(null);
      <div id="main">
       <input id="input" ref={inpref}></input><br />
       <PortalButton buttonclick={changeText} /><br />
-      <PortalTextArea valu={val} />
+      <PortalTextArea value={val} />
     </div>
   )
 }
